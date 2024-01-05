@@ -63,6 +63,9 @@
 
         .container-fluid1{
             background-color: rgb(13, 63, 88);
+            color: white;
+            padding: 20px;
+            margin-top: 100px;
         }
 
         .container-fluid2 {
@@ -87,6 +90,10 @@
 
         .pic {
             border-radius: 18px;
+            
+        }
+        .pic1{
+            margin: 10px;
         }
     </style>
 </head>
@@ -94,7 +101,7 @@
 <body>
 
 
-    <div class="container-fluid">
+    <div class="container-fluid ">
 
         <nav>
             <ul>
@@ -115,32 +122,40 @@
 
     </div>
     <br>
-    <div class="container">
+    <div class="container" style="margin-top: 100px;">
         <div class="row">
+            <div class="col col-sm-3">
+                <img class="pic " height="357px" src="building.webp" alt="">
+            </div>
             <div class="col col-lg-3">
-                <img class="pic" height="400px" src="building.webp" alt="">
-            </div>
-            <div class="col">
-                <img class="pic" height="150px" src="about pic1.webp" alt="">
+                <img class="pic pic1" height="150px" src="about pic1.webp" alt="">
                 <br>
-                <img class="pic" height="150px" src="about pic2.webp" alt="">
+                <img class="pic pic1" height="150px" src="about pic2.webp" alt="">
             </div>
 
 
 
             <div class="col">
-                <h2 class="text-center">A Few Words About the College</h2>
+                <h2 style="color: blue;" class="text-center">A Few Words About the College</h2>
+                <br>
+                <p>
+                    "Empowering Engineers, Inspiring Innovation: Welcome to World Best College, where excellence is engineered. Our institution stands at the forefront of technical education, nurturing the next generation of visionary problem solvers. Immerse yourself in a dynamic curriculum crafted to meet industry demands, guided by accomplished faculty and industry experts. From state-of-the-art labs to collaborative projects, World Best College propels you towards a future of limitless possibilities. Join us in sculpting the engineers of tomorrow, where innovation meets education, and dreams take flight."
+                </p>
             </div>
         </div>
     </div>
     <div class="container-fluid1">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col col-lg-5">
                     <h2>Scholarship Programs</h2>
+                    <p>"Fuel Your Dreams with Worlds Best College Scholarships. Unlock opportunities, break barriers, and embrace academic excellence. Our scholarships empower your journey, ensuring that financial constraints never limit your educational aspirations. Apply now and let your potential shine!"</p>
                 </div>
-                <div class="col">
-                    <button>search </button>
+                <div class="col offset-4">
+                    <div style="margin-top: 75px;">
+                        <button >search </button>
+                    </div>
+                   
                 </div>
             </div>
 
